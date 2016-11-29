@@ -1,0 +1,12 @@
+type Car {
+  _id: String
+  model: String
+  registrationNo: String
+  owner: User
+}
+
+input InputCar {
+  model: String!
+  registrationNo: String!
+  owner: String!
+}

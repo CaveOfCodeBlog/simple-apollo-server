@@ -1,0 +1,4 @@
+type Mutation {
+  createUser(user: InputUser!): User
+  createCar(car: InputCar!): Car
+}
